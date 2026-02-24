@@ -114,17 +114,44 @@ body::before {
   margin: 12px 0;
 }
 
-/* LEFT: Nav links are GOLDEN */
+/* LEFT: Nav links */
 .author__nav a {
   color: $golden;
   font-size: 1em;
   text-decoration: none;
+  font-weight: normal;
 }
 
+/* 悬停变紫色 */
 .author__nav a:hover {
-  color: $golden-dark;
+  color: $purple;
+  text-decoration: none;
 }
 
+/* 点击时紫色 */
+.author__nav a:active {
+  color: $purple;
+  text-decoration: none;
+}
+
+/* 访问后金色加粗 */
+.author__nav a:visited {
+  color: $golden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 去掉列表前面的点 */
+.author__nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.author__nav li {
+  margin: 12px 0;
+}
 /* ========== Page Content (RIGHT - ALL PURPLE) ========== */
 .page {
   flex: 1;
