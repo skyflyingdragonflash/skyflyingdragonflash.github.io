@@ -8,5 +8,8 @@ main:
   - title: "Awards"
     url: /awards/
 
+  - title: "Laboratory"
+    url: /laboratory/
+
   - title: "Recommend"
     url: /recommendations/
