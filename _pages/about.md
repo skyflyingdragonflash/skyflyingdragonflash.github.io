@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-<style>
-.page__content h2 {
-  border-bottom: 1px solid #f2f3f3;
-  padding-bottom: 0.5em;
-}
-</style>
+<div class="author-info">
+  <div class="info-line info-title">Ph.D. Student</div>
+  <div class="info-line"><a href="https://sse.cuhk.edu.cn/" class="info-link">School of Science and Engineering</a></div>
+  <div class="info-line"><a href="https://www.cuhk.edu.cn/" class="info-link">The Chinese University of Hong Kong, Shenzhen</a></div>
+  <div class="info-line" style="margin-top: 0.8em;">B.Eng. (<a href="https://www.seu.edu.cn/" class="info-link">SEU</a>)</div>
+</div>
 
 ## About
 
@@ -24,10 +24,8 @@ My research interests focus on the interdisciplinary area of **analog integrated
 - Large Language Models for Analog EDA
 - Optimization Algorithms for Circuit Design Automation
 
----
+I have openings for collaboration with researchers interested in EDA and AI. Please contact me if you're interested.
 
 ## Contact
 
 **E-mail:** [yapengli1@link.cuhk.edu.cn](mailto:yapengli1@link.cuhk.edu.cn)
-
-**Office:** The Chinese University of Hong Kong, Shenzhen
