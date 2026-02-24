@@ -331,3 +331,9 @@ strong {
   content: none !important;
   display: none !important;
 }
+
+
+/* ========== 隐藏旧版导航 ========== */
+.sidebar .nav__list {
+  display: none !important;
+}
