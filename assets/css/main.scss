@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @charset "utf-8";
@@ -9,24 +8,28 @@ $cuhk-purple: #750f6d;
 $cuhk-golden: #dda300;
 $cuhk-golden-hover: #b88a00;
 
-/* ========== Base Styles ========== */
+/* ========== Reset & Base ========== */
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
   color: #333;
   background-color: #fff;
-  margin: 0;
-  padding: 0;
   padding-top: 8px;
 }
 
-/* Top banner bar */
+/* Top purple banner */
 body::before {
   content: "";
   display: block;
@@ -42,55 +45,39 @@ body::before {
 a {
   color: $cuhk-golden;
   text-decoration: none;
-  
-  &:hover {
-    color: $cuhk-golden-hover;
-    text-decoration: underline;
-  }
+}
+
+a:hover {
+  color: $cuhk-golden-hover;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
   font-weight: bold;
+  line-height: 1.3;
+  margin: 1.5em 0 0.5em 0;
 }
 
-h1 {
-  font-size: 1.8em;
-  color: #333;
-}
-
-h2 {
-  font-size: 1.4em;
-  color: $cuhk-golden;
+h1 { font-size: 1.8em; color: #333; }
+h2 { 
+  font-size: 1.4em; 
+  color: $cuhk-golden; 
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.3em;
 }
+h3 { font-size: 1.15em; color: #333; }
 
-h3 {
-  font-size: 1.1em;
-  color: #333;
-}
-
-p {
-  margin: 0 0 1em 0;
-}
+p { margin: 0 0 1em 0; }
 
 ul, ol {
-  margin: 0 0 1em 1.5em;
+  margin: 0 0 1em 0;
+  padding-left: 1.5em;
 }
 
-li {
-  margin-bottom: 0.3em;
-}
+li { margin-bottom: 0.3em; }
 
-strong, b {
-  font-weight: bold;
-}
-
-em, i {
-  font-style: italic;
-}
+strong { font-weight: bold; }
+em { font-style: italic; }
 
 hr {
   border: none;
@@ -98,21 +85,21 @@ hr {
   margin: 2em 0;
 }
 
-/* ========== Layout ========== */
+/* ========== Main Layout ========== */
 
-.wrapper {
+#main {
   display: flex;
-  min-height: 100vh;
+  min-height: calc(100vh - 8px);
 }
 
 /* ========== Sidebar ========== */
 
 .sidebar {
-  width: 280px;
-  min-width: 280px;
-  background-color: #f8f8f8;
+  width: 250px;
+  min-width: 250px;
+  background-color: #fafafa;
   border-right: 1px solid #e8e8e8;
-  padding: 2em 1.5em;
+  padding: 1.5em 1em;
   position: fixed;
   top: 8px;
   left: 0;
@@ -120,17 +107,26 @@ hr {
   overflow-y: auto;
 }
 
+.author__logo {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.author__logo img {
+  max-width: 100px;
+  height: auto;
+}
+
 .author__avatar {
   text-align: center;
   margin-bottom: 1em;
-  
-  img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: 3px solid $cuhk-purple;
-    border-radius: 5px;
-  }
+}
+
+.author__avatar img {
+  width: 150px;
+  height: auto;
+  border: 3px solid $cuhk-purple;
+  border-radius: 5px;
 }
 
 .author__content {
@@ -143,16 +139,16 @@ hr {
   font-weight: bold;
   color: $cuhk-purple;
   margin: 0 0 0.3em 0;
-  
-  a {
-    color: $cuhk-purple;
-    text-decoration: none;
-    
-    &:hover {
-      color: $cuhk-purple;
-      text-decoration: none;
-    }
-  }
+}
+
+.author__name a {
+  color: $cuhk-purple;
+  text-decoration: none;
+}
+
+.author__name a:hover {
+  color: $cuhk-purple;
+  text-decoration: none;
 }
 
 .author__bio {
@@ -161,44 +157,39 @@ hr {
   margin: 0;
 }
 
-.author__urls-wrapper {
-  text-align: center;
-  
-  button {
-    display: none;
-  }
+/* Sidebar Navigation */
+.nav__list {
+  margin-top: 1em;
 }
 
-.author__urls {
+.nav__items {
   list-style: none;
   margin: 0;
   padding: 0;
-  
-  li {
-    margin: 0.5em 0;
-  }
-  
-  a {
-    color: $cuhk-golden;
-    font-size: 0.95em;
-    
-    &:hover {
-      color: $cuhk-golden-hover;
-    }
-  }
-  
-  .fa, .fab, .fas, .far {
-    margin-right: 0.5em;
-    width: 1.2em;
-    text-align: center;
-  }
+  text-align: center;
 }
 
-/* ========== Main Content ========== */
+.nav__items li {
+  margin: 0.6em 0;
+}
+
+.nav__items a {
+  color: $cuhk-golden;
+  font-size: 1em;
+  text-decoration: none;
+  display: block;
+  padding: 0.3em 0;
+}
+
+.nav__items a:hover {
+  color: $cuhk-golden-hover;
+}
+
+/* ========== Page Content ========== */
 
 .page {
   flex: 1;
-  margin-left: 280px;
+  margin-left: 250px;
   padding: 2em 3em;
   max-width: 900px;
 }
@@ -208,77 +199,39 @@ hr {
   color: #333;
   margin-top: 0;
   margin-bottom: 0.5em;
+  border-bottom: none;
 }
 
-.page__content {
-  h2 {
-    color: $cuhk-golden;
-    font-size: 1.35em;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.3em;
-    margin-top: 1.5em;
-  }
-  
-  h3 {
-    color: #333;
-    font-size: 1.1em;
-  }
-  
-  a {
-    color: $cuhk-golden;
-    
-    &:hover {
-      color: $cuhk-golden-hover;
-    }
-  }
+.page__content h2 {
+  color: $cuhk-golden;
+  font-size: 1.35em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
 }
 
-/* ========== Masthead / Navigation ========== */
-
-.masthead {
-  display: none;
+.page__content h3 {
+  color: #333;
+  font-size: 1.1em;
 }
 
-.greedy-nav {
-  background: #fff;
-  
-  a {
-    color: $cuhk-golden;
-    
-    &:hover {
-      color: $cuhk-golden-hover;
-    }
-  }
-  
-  .visible-links {
-    a {
-      color: $cuhk-golden;
-      
-      &:hover {
-        color: $cuhk-golden-hover;
-      }
-    }
-  }
-}
+/* ========== Hide Unnecessary Elements ========== */
 
-/* ========== Footer ========== */
-
+.masthead,
+.page__meta,
+.page__date,
+.page__taxonomy,
 .page__footer {
-  margin-left: 280px;
-  padding: 2em 3em;
-  background-color: #f8f8f8;
-  border-top: 1px solid #e8e8e8;
-  font-size: 0.85em;
-  color: #666;
-  
-  a {
-    color: $cuhk-golden;
-  }
+  display: none;
 }
 
 /* ========== Responsive ========== */
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+  #main {
+    flex-direction: column;
+  }
+  
   .sidebar {
     position: relative;
     width: 100%;
@@ -287,54 +240,12 @@ hr {
     top: 0;
     border-right: none;
     border-bottom: 1px solid #e8e8e8;
+    padding: 1.5em;
   }
   
   .page {
     margin-left: 0;
     padding: 1.5em;
+    max-width: 100%;
   }
-  
-  .page__footer {
-    margin-left: 0;
-    padding: 1.5em;
-  }
-}
-
-/* ========== Utility Classes ========== */
-
-.btn {
-  display: inline-block;
-  padding: 0.5em 1em;
-  background-color: $cuhk-purple;
-  color: #fff;
-  border-radius: 3px;
-  text-decoration: none;
-  
-  &:hover {
-    background-color: darken($cuhk-purple, 10%);
-    color: #fff;
-    text-decoration: none;
-  }
-}
-
-/* Hide elements */
-.page__meta,
-.page__date,
-.page__taxonomy {
-  display: none;
-}
-
-/* ========== Archive Pages ========== */
-
-.archive__item-title {
-  margin-top: 0;
-  
-  a {
-    color: $cuhk-golden;
-  }
-}
-
-.archive__item-excerpt {
-  font-size: 0.9em;
-  color: #666;
 }
