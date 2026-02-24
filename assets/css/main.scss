@@ -71,7 +71,7 @@ body::before {
 }
 
 .author__logo img {
-  width: 90px;
+  width: 150px;
   height: auto;
 }
 
@@ -329,11 +329,5 @@ strong {
 .author__urls li::before,
 .sidebar li::before {
   content: none !important;
-  display: none !important;
-}
-
-
-/* ========== 隐藏旧版导航 ========== */
-.sidebar .nav__list {
   display: none !important;
 }
