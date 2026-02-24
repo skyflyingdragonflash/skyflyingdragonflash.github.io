@@ -3,109 +3,274 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
-
 /* ========== CUHK Colors ========== */
 $purple: #750f6d;
 $golden: #dda300;
+$golden-dark: #b88a00;
 $purple-dark: #5a0b54;
+$text-color: #333;
+$light-gray: #f8f8f8;
+$border-color: #e8e8e8;
 
-/* ========== 左侧边栏链接（Email 等） ========== */
-.author__urls-wrapper a,
-.author__urls a,
-.sidebar a {
-  color: $golden !important;
-  text-decoration: none !important;
-  font-weight: normal !important;
+/* ========== Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.author__urls-wrapper a:hover,
-.author__urls a:hover,
+/* ========== Body ========== */
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: $text-color;
+  background: #fff;
+}
+
+/* Top Purple Bar */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: $purple;
+  z-index: 1000;
+}
+
+/* ========== Main Layout ========== */
+#main {
+  display: flex;
+  min-height: 100vh;
+  padding-top: 6px;
+}
+
+/* ========== Sidebar (LEFT - ALL GOLDEN) ========== */
+.sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: $light-gray;
+  border-right: 1px solid $border-color;
+  padding: 30px 20px;
+  position: fixed;
+  top: 6px;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.author__logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.author__logo img {
+  width: 90px;
+  height: auto;
+}
+
+.author__avatar {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.author__avatar img {
+  width: 150px;
+  height: auto;
+  border: 3px solid $purple;
+  border-radius: 4px;
+}
+
+.author__content {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* LEFT: Name is GOLDEN */
+.author__name {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: $golden;
+  margin-bottom: 5px;
+}
+
+.author__bio {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.author__nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.author__nav li {
+  margin: 12px 0;
+}
+
+/* LEFT: Nav links */
+.author__nav a {
+  color: $golden;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* 悬停变紫色 */
+.author__nav a:hover {
+  color: $purple;
+  text-decoration: none;
+}
+
+/* 点击时紫色 */
+.author__nav a:active {
+  color: $purple;
+  text-decoration: none;
+}
+
+/* 访问后金色加粗 */
+.author__nav a:visited {
+  color: $golden;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* 去掉列表前面的点 */
+.author__nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.author__nav li {
+  margin: 12px 0;
+}
+/* ========== Page Content (RIGHT - ALL PURPLE) ========== */
+.page {
+  flex: 1;
+  margin-left: 260px;
+  padding: 40px 50px;
+  max-width: 850px;
+}
+
+/* ========== Typography (RIGHT SIDE) ========== */
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* RIGHT: Main title is PURPLE */
+h1 {
+  font-size: 1.6em;
+  color: $purple;
+  margin-top: 0;
+}
+
+/* RIGHT: Section titles are PURPLE */
+h2 {
+  font-size: 1.3em;
+  color: $purple;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: $text-color;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  margin: 0 0 1em 1.5em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* RIGHT: All links are PURPLE */
+.page a {
+  color: $purple;
+  text-decoration: none;
+}
+
+.page a:hover {
+  color: $purple-dark;
+  text-decoration: underline;
+}
+
+/* ========== Author Info Block (RIGHT SIDE) ========== */
+.author-info {
+  margin-bottom: 1.5em;
+}
+
+.author-info .info-line {
+  margin: 0.2em 0;
+}
+
+.author-info .info-title {
+  color: $text-color;
+  font-weight: normal;
+}
+
+/* RIGHT: Info links are PURPLE */
+.author-info .info-link {
+  color: $purple;
+}
+
+.author-info .info-link:hover {
+  color: $purple-dark;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    top: 0;
+    border-right: none;
+    border-bottom: 1px solid $border-color;
+  }
+  
+  .page {
+    margin-left: 0;
+    padding: 25px;
+  }
+}
+
+/* ========== 链接状态覆盖 ========== */
+.author__nav a:hover,
 .sidebar a:hover {
   color: $purple !important;
 }
 
-.author__urls-wrapper a:active,
-.author__urls a:active,
+.author__nav a:active,
 .sidebar a:active {
   color: $purple !important;
 }
 
-.author__urls-wrapper a:visited,
-.author__urls a:visited,
+.author__nav a:visited,
 .sidebar a:visited {
   color: $golden !important;
   font-weight: bold !important;
-}
-
-/* ========== 左侧名字 ========== */
-.author__name,
-.author__name a {
-  color: $golden !important;
-}
-
-/* ========== 顶部导航栏（About, Publications, Awards） ========== */
-.greedy-nav a,
-.greedy-nav .visible-links a,
-.masthead__menu a {
-  color: $golden !important;
-  text-decoration: none !important;
-  font-weight: normal !important;
-}
-
-.greedy-nav a:hover,
-.greedy-nav .visible-links a:hover,
-.masthead__menu a:hover {
-  color: $purple !important;
-}
-
-.greedy-nav a:active,
-.greedy-nav .visible-links a:active,
-.masthead__menu a:active {
-  color: $purple !important;
-}
-
-.greedy-nav a:visited,
-.greedy-nav .visible-links a:visited,
-.masthead__menu a:visited {
-  color: $golden !important;
-  font-weight: bold !important;
-}
-
-/* ========== 网站标题链接 ========== */
-.site-title {
-  color: $golden !important;
-}
-
-.site-title:hover {
-  color: $purple !important;
-}
-
-/* ========== 右侧内容区域 ========== */
-.page__title,
-.page__content h1,
-.page__content h2 {
-  color: $purple !important;
-}
-
-.page__content a {
-  color: $purple !important;
-}
-
-.page__content a:hover {
-  color: $purple-dark !important;
-}
-
-/* ========== Follow 按钮 ========== */
-.author__urls-wrapper button,
-.btn--inverse {
-  color: $golden !important;
-  border-color: $golden !important;
-}
-
-.author__urls-wrapper button:hover,
-.btn--inverse:hover {
-  color: $purple !important;
-  border-color: $purple !important;
 }
