@@ -10,9 +10,9 @@ title_separator          : "-"
 subtitle                 : 
 name                     : "Yapeng Li"
 description              : "Ph.D. Student at CUHK-Shenzhen"
-url                      : "https://yapeng-li.github.io"
 baseurl                  : ""
-repository               : "yapeng-li/yapeng-li.github.io"
+url                      : "https://skyflyingdragonflash.github.io"
+repository               : "skyflyingdragonflash/skyflyingdragonflash.github.io"
 
 # Site Author
 author:
