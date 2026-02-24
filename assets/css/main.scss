@@ -333,29 +333,45 @@ strong {
 //   color: $golden-dark !important;
 // }
 
-/* 去掉列表前面的点 */
-.author__nav ul,
-.author__urls,
-.sidebar ul {
-  list-style: none !important;
-  list-style-type: none !important;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+/* 侧边栏名字 - 金色 */
+.author__name,
+.author__name a {
+  color: $golden !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.5em !important;
 }
 
-.author__nav li,
-.author__urls li,
-.sidebar li {
-  list-style: none !important;
-  list-style-type: none !important;
+.author__name a:hover {
+  color: $purple !important;
 }
 
-/* 去掉链接前的图标点 */
-.author__urls li::before,
-.sidebar li::before {
-  content: none !important;
-  display: none !important;
+.author__name a:visited {
+  color: $golden !important;
 }
+
+// /* 去掉列表前面的点 */
+// .author__nav ul,
+// .author__urls,
+// .sidebar ul {
+//   list-style: none !important;
+//   list-style-type: none !important;
+//   padding-left: 0 !important;
+//   margin-left: 0 !important;
+// }
+
+// .author__nav li,
+// .author__urls li,
+// .sidebar li {
+//   list-style: none !important;
+//   list-style-type: none !important;
+// }
+
+// /* 去掉链接前的图标点 */
+// .author__urls li::before,
+// .sidebar li::before {
+//   content: none !important;
+//   display: none !important;
+// }
 
 
 
