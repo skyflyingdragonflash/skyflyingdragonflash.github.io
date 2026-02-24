@@ -19,8 +19,7 @@ redirect_from:
 
 ## About
 
-I am a Ph.D. student in the [School of Science and Engineering](https://sse.cuhk.edu.cn/), [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), from Fall 2023, advised by [Prof. Tinghuan Chen](https://mypage.cuhk.edu.cn/academics/chentinghuan/).
-
+I am currently a Ph.D. student in the [School of Science and Engineering](https://sse.cuhk.edu.cn/), [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), from Fall 2023, advised by [Prof. Tinghuan Chen](https://mypage.cuhk.edu.cn/academics/chentinghuan/).
 Previously, I received my B.Eng. degree in Microelectronics Science and Engineering from the [School of Microelectronics](https://www2.scut.edu.cn/microelectronics/), [South China University of Technology](https://www.scut.edu.cn/) in 2023.
 
 My research interests include **machine learning** and **algorithm optimization** for **analog EDA**.
