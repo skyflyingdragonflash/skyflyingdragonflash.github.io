@@ -1,0 +1,10 @@
+/* CUHK-SZ Colors */
+$cuhk-purple: #750f6d;
+$cuhk-golden: #dda300;
+
+/* Primary color */
+$primary-color: $cuhk-purple !default;
+$link-color: $cuhk-golden !default;
+$link-color-hover: darken($cuhk-golden, 10%) !default;
+$masthead-link-color: $cuhk-purple !default;
+$masthead-link-color-hover: $cuhk-golden !default;
