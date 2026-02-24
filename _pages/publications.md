@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Journal Papers
+## Journal
 
 [J3] Peng Xu, **Yapeng Li**, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "Ckt2Vec: Efficient Electrical Encoding for Analog Circuit Representations in Vector Space", *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2025. **(CCF-A)**
 
@@ -15,7 +15,7 @@ author_profile: true
 
 ---
 
-## Conference Papers
+## Conference
 [C3] Shixin Chen, Peng Xu, **Yapeng Li**, Tinghuan Chen, Bei Yu, "IP-Matcher: An Efficient One-to-Many Matching Framework for Analog Circuit Design and Reusing", *IEEE/ACM Design, Automation and Test in Europe (DATE)*, 2026. **(CCF-B)**
 
 [C2] Peng Xu\*, **Yapeng Li\***, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "KCLNet: Electrically Equivalence-Oriented Graph Representation Learning for Analog Circuits", *AAAI Conference on Artificial Intelligence (AAAI)*, 2026. **(CCF-A, Oral)**
