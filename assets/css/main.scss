@@ -309,6 +309,12 @@ strong {
 // }
 
 /* 导航链接样式 */
+.nav__items {
+  margin-left: 1em;  // 调整这个值来控制缩进程度
+  // 或者使用 padding-left: 1em;
+  font-size: 1.1em;  // 调整字体大小
+}
+
 .nav__list a,
 .nav__items a {
   color: $golden !important;
@@ -333,7 +339,7 @@ strong {
 //   color: $golden-dark !important;
 // }
 
-/* 侧边栏名字 - 金色 */
+/* 侧边栏作者名字 - 金色 */
 .author__name,
 .author__name a {
   color: $golden !important;
