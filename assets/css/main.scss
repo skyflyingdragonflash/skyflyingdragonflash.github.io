@@ -308,6 +308,31 @@ strong {
 //   text-decoration: none !important;
 // }
 
+/* 导航链接样式 */
+.nav__list a,
+.nav__items a {
+  color: $golden !important;
+  text-decoration: none !important;
+}
+
+/* 悬停 */
+.nav__list a:hover,
+.nav__items a:hover {
+  color: $purple !important;
+}
+
+/* 点击 */
+.nav__list a:active,
+.nav__items a:active {
+  color: $purple !important;
+}
+
+/* 访问后 */
+.nav__list a:visited,
+.nav__items a:visited {
+  color: $golden-dark !important;
+}
+
 /* 去掉列表前面的点 */
 .author__nav ul,
 .author__urls,
