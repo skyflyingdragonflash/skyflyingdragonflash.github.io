@@ -3,7 +3,7 @@
 
 @charset "utf-8";
 
-/* ========== CUHK Colors ========== */
+/* ========== Variables ========== */
 $purple: #750f6d;
 $golden: #dda300;
 $golden-dark: #b88a00;
@@ -39,9 +39,20 @@ body::before {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 6px;
   background: $purple;
   z-index: 1000;
+}
+
+/* ========== Links ========== */
+a {
+  color: $golden;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $golden-dark;
+  text-decoration: underline;
 }
 
 /* ========== Main Layout ========== */
@@ -51,7 +62,7 @@ body::before {
   padding-top: 6px;
 }
 
-/* ========== Sidebar (LEFT - ALL GOLDEN) ========== */
+/* ========== Sidebar ========== */
 .sidebar {
   width: 260px;
   min-width: 260px;
@@ -92,11 +103,10 @@ body::before {
   margin-bottom: 25px;
 }
 
-/* LEFT: Name is GOLDEN */
 .author__name {
   font-size: 1.25em;
   font-weight: bold;
-  color: $golden;
+  color: $purple;
   margin-bottom: 5px;
 }
 
@@ -114,18 +124,16 @@ body::before {
   margin: 12px 0;
 }
 
-/* LEFT: Nav links are GOLDEN */
 .author__nav a {
   color: $golden;
   font-size: 1em;
-  text-decoration: none;
 }
 
 .author__nav a:hover {
   color: $golden-dark;
 }
 
-/* ========== Page Content (RIGHT - ALL PURPLE) ========== */
+/* ========== Page Content ========== */
 .page {
   flex: 1;
   margin-left: 260px;
@@ -133,24 +141,22 @@ body::before {
   max-width: 850px;
 }
 
-/* ========== Typography (RIGHT SIDE) ========== */
+/* ========== Typography ========== */
 h1, h2, h3, h4 {
   font-weight: bold;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
 }
 
-/* RIGHT: Main title is PURPLE */
 h1 {
   font-size: 1.6em;
   color: $purple;
   margin-top: 0;
 }
 
-/* RIGHT: Section titles are PURPLE */
 h2 {
   font-size: 1.3em;
-  color: $purple;
+  color: $golden;
   border-bottom: 1px solid #ddd;
   padding-bottom: 8px;
 }
@@ -176,18 +182,7 @@ strong {
   font-weight: bold;
 }
 
-/* RIGHT: All links are PURPLE */
-.page a {
-  color: $purple;
-  text-decoration: none;
-}
-
-.page a:hover {
-  color: $purple-dark;
-  text-decoration: underline;
-}
-
-/* ========== Author Info Block (RIGHT SIDE) ========== */
+/* ========== Author Info Block ========== */
 .author-info {
   margin-bottom: 1.5em;
 }
@@ -201,13 +196,12 @@ strong {
   font-weight: normal;
 }
 
-/* RIGHT: Info links are PURPLE */
 .author-info .info-link {
-  color: $purple;
+  color: $golden;
 }
 
 .author-info .info-link:hover {
-  color: $purple-dark;
+  color: $golden-dark;
 }
 
 /* ========== Responsive ========== */
