@@ -17,7 +17,7 @@ repository               : "yapeng-li/yapeng-li.github.io"
 # Site Author
 author:
   name             : "Yapeng Li"
-  avatar           : "profile.png"
+  avatar           : "/images/profile.png"
   bio              : "Ph.D. Student"
   location         : 
   employer         :
