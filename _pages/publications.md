@@ -16,6 +16,12 @@ author_profile: true
 
 ## Conference
 
+[C5] **Yapeng Li**†, Peng Xu†, Mingzi Wang, Tinghuan Chen, "AlphaPlacer: Analog Placement Enhanced by Monte Carlo Tree Search", ACM/IEEE Design Automation Conference (DAC), Long Beach, Jul. 26–29, 2026. **(CCF-A)**
+
+[C6] Peng Xu, Mingzi Wang, **Yapeng Li**, Yuyang Ye, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "DiffSP: Differentiable Sequence Pair-based Analog Placement", ACM/IEEE Design Automation Conference (DAC), Long Beach, Jul. 26–29, 2026. **(CCF-A)**
+
+[C4] Tongkai Wu†, Beichen Li†, **Yapeng Li**, Zuxun Duan, Yanshi Liang, Yihe Wang, Baohui Xie, Qunsong Ye, Tinghuan Chen, "GRACE: A Ground Plane Generation and Re-routing Aware Co-design Engine", ACM/IEEE Design Automation Conference (DAC), Long Beach, Jul. 26–29, 2026. **(CCF-A)**
+
 [C3] Shixin Chen, Peng Xu, **Yapeng Li**, Tinghuan Chen, Bei Yu, "IP-Matcher: An Efficient One-to-Many Matching Framework for Analog Circuit Design and Reusing", IEEE/ACM Proceedings Design, Automation and Test in Europe (DATE), Verona, Apr. 20–22, 2026. **(CCF-B)**
 
 [C2] Peng Xu†, **Yapeng Li†**, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "KCLNet: Electrically Equivalence-Oriented Graph Representation Learning for Analog Circuits", AAAI Conference on Artificial Intelligence (AAAI), Singapore, Feb. 20–27, 2026. **(CCF-A, Oral)**
