@@ -331,3 +331,53 @@ strong {
   content: none !important;
   display: none !important;
 }
+
+
+
+
+/* ========== 字体设置（仿导师网页风格） ========== */
+
+/* 全局字体 */
+body {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+/* 侧边栏名字 */
+.author__name {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.5em !important;
+}
+
+/* 侧边栏导航链接 */
+.sidebar a,
+.author__urls a,
+.nav__items a {
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
+/* 正文标题 */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
+/* 正文内容 */
+.page__content,
+.page__content p,
+.archive__item-excerpt {
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+}
+
+/* 链接颜色（保持你之前设置的金色/紫色） */
+.page__content a {
+  color: $golden !important;
+}
+
+.page__content a:hover {
+  color: $purple !important;
+}
