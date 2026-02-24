@@ -29,7 +29,7 @@ author_profile: true
 
 [A10] "増田こうすけ劇場 ギャグマンガ日和GO" (2025), [スタジオディーン](https://www.deen.co.jp/)
 
-[A9] "ID:INVADED イド：インヴェイデッド" (2020), [NAZ](http://naz-inc.jp/)
+[A9] "ID:INVADED イド：インヴェイデッド" (2020), [NAZ](https://www.nazstudio.com/en/)
 
 [A8] "ブギーポップは笑わない" (2019), [MADHOUSE](https://www.madhouse.co.jp/)
 
