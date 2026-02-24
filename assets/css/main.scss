@@ -7,16 +7,24 @@
 /* CUHK-SZ Colors */
 $cuhk-purple: #750f6d;
 $cuhk-golden: #dda300;
+$cuhk-golden-hover: #b88a00;
 
-/* Override theme variables */
-$primary-color: $cuhk-purple;
-$link-color: $cuhk-golden;
-$link-color-hover: darken($cuhk-golden, 15%);
+/* ========== Base Styles ========== */
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+* {
+  box-sizing: border-box;
+}
 
-/* ========== Custom Styles to Match Advisor's Page ========== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+}
 
 /* Top banner bar */
 body::before {
@@ -31,154 +39,302 @@ body::before {
   z-index: 9999;
 }
 
-body {
-  padding-top: 8px;
+a {
+  color: $cuhk-golden;
+  text-decoration: none;
+  
+  &:hover {
+    color: $cuhk-golden-hover;
+    text-decoration: underline;
+  }
 }
 
-/* Sidebar styling */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: $cuhk-golden;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+  color: #333;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+ul, ol {
+  margin: 0 0 1em 1.5em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/* ========== Layout ========== */
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ========== Sidebar ========== */
+
 .sidebar {
-  background-color: #fafafa;
+  width: 280px;
+  min-width: 280px;
+  background-color: #f8f8f8;
   border-right: 1px solid #e8e8e8;
-  padding-top: 1em;
+  padding: 2em 1.5em;
+  position: fixed;
+  top: 8px;
+  left: 0;
+  height: calc(100vh - 8px);
+  overflow-y: auto;
 }
 
-/* Author profile in sidebar */
 .author__avatar {
-  display: block;
-  margin: 0 auto 1em auto;
+  text-align: center;
+  margin-bottom: 1em;
   
   img {
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     border: 3px solid $cuhk-purple;
     border-radius: 5px;
   }
 }
 
-.author__name {
-  font-family: inherit;
-  font-size: 1.2em !important;
-  font-weight: bold;
-  color: $cuhk-purple !important;
+.author__content {
   text-align: center;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.author__name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: $cuhk-purple;
+  margin: 0 0 0.3em 0;
+  
+  a {
+    color: $cuhk-purple;
+    text-decoration: none;
+    
+    &:hover {
+      color: $cuhk-purple;
+      text-decoration: none;
+    }
+  }
 }
 
 .author__bio {
   font-size: 0.9em;
   color: #666;
-  text-align: center;
+  margin: 0;
 }
 
-/* Sidebar navigation links */
-.nav__list .nav__items {
+.author__urls-wrapper {
+  text-align: center;
+  
+  button {
+    display: none;
+  }
+}
+
+.author__urls {
+  list-style: none;
   margin: 0;
   padding: 0;
   
+  li {
+    margin: 0.5em 0;
+  }
+  
   a {
-    display: block;
-    padding: 0.5em 1em;
-    color: $cuhk-golden !important;
-    font-size: 1em;
-    text-align: center;
-    text-decoration: none;
-    border-bottom: none;
+    color: $cuhk-golden;
+    font-size: 0.95em;
     
     &:hover {
-      color: darken($cuhk-golden, 15%) !important;
-      background-color: #f0f0f0;
+      color: $cuhk-golden-hover;
     }
   }
-}
-
-/* School logo above author name */
-.author__logo {
-  display: block;
-  text-align: center;
-  margin-bottom: 1.5em;
   
-  img {
-    max-width: 80px;
-    height: auto;
+  .fa, .fab, .fas, .far {
+    margin-right: 0.5em;
+    width: 1.2em;
+    text-align: center;
   }
 }
 
-/* Page title styling */
+/* ========== Main Content ========== */
+
+.page {
+  flex: 1;
+  margin-left: 280px;
+  padding: 2em 3em;
+  max-width: 900px;
+}
+
 .page__title {
   font-size: 1.8em;
-  font-weight: bold;
   color: #333;
+  margin-top: 0;
   margin-bottom: 0.5em;
 }
 
-/* Section headings */
 .page__content {
   h2 {
     color: $cuhk-golden;
-    font-size: 1.4em;
-    font-weight: bold;
+    font-size: 1.35em;
     border-bottom: 1px solid #ddd;
     padding-bottom: 0.3em;
     margin-top: 1.5em;
-    margin-bottom: 0.8em;
   }
   
   h3 {
     color: #333;
     font-size: 1.1em;
   }
-}
-
-/* Links in content */
-.page__content {
+  
   a {
     color: $cuhk-golden;
-    text-decoration: none;
     
     &:hover {
-      color: darken($cuhk-golden, 15%);
-      text-decoration: underline;
+      color: $cuhk-golden-hover;
     }
   }
 }
 
-/* Info box styling (position, school, degree) */
-.author-info {
-  text-align: left;
-  margin: 1em 0;
+/* ========== Masthead / Navigation ========== */
+
+.masthead {
+  display: none;
+}
+
+.greedy-nav {
+  background: #fff;
   
-  .info-line {
-    margin: 0.3em 0;
-    font-size: 0.95em;
+  a {
+    color: $cuhk-golden;
+    
+    &:hover {
+      color: $cuhk-golden-hover;
+    }
   }
   
-  .info-title {
-    color: #333;
-    font-weight: normal;
+  .visible-links {
+    a {
+      color: $cuhk-golden;
+      
+      &:hover {
+        color: $cuhk-golden-hover;
+      }
+    }
   }
+}
+
+/* ========== Footer ========== */
+
+.page__footer {
+  margin-left: 280px;
+  padding: 2em 3em;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e8e8e8;
+  font-size: 0.85em;
+  color: #666;
   
-  .info-link {
+  a {
     color: $cuhk-golden;
   }
 }
 
-/* CV link */
-a.cv-link {
-  color: $cuhk-golden;
-  font-size: 0.95em;
-}
+/* ========== Responsive ========== */
 
-/* Hide unnecessary elements */
-.page__meta,
-.page__date {
-  display: none;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .sidebar {
     position: relative;
     width: 100%;
+    min-width: 100%;
+    height: auto;
+    top: 0;
     border-right: none;
     border-bottom: 1px solid #e8e8e8;
   }
+  
+  .page {
+    margin-left: 0;
+    padding: 1.5em;
+  }
+  
+  .page__footer {
+    margin-left: 0;
+    padding: 1.5em;
+  }
+}
+
+/* ========== Utility Classes ========== */
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: $cuhk-purple;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  
+  &:hover {
+    background-color: darken($cuhk-purple, 10%);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* Hide elements */
+.page__meta,
+.page__date,
+.page__taxonomy {
+  display: none;
+}
+
+/* ========== Archive Pages ========== */
+
+.archive__item-title {
+  margin-top: 0;
+  
+  a {
+    color: $cuhk-golden;
+  }
+}
+
+.archive__item-excerpt {
+  font-size: 0.9em;
+  color: #666;
 }
