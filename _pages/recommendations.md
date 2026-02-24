@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Steam"
-permalink: /steam/
+title: "Recommendations"
+permalink: /recommendations/
 author_profile: true
 ---
 
