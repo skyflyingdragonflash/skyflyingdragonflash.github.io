@@ -5,7 +5,7 @@ permalink: /steam/
 author_profile: true
 ---
 
-**Friend Code:** `你的好友代码`
+**Friend Code:** `1022335253`
 
 ## Playtime
 
