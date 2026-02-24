@@ -1,0 +1,51 @@
+/* ========== 自定义颜色 ========== */
+$cuhk-purple: #750f6d;
+$cuhk-golden: #dda300;
+
+/* ========== 左侧导航链接样式 ========== */
+.author__urls-wrapper {
+  a {
+    color: $cuhk-golden !important;
+    text-decoration: none !important;
+    font-weight: normal;
+    
+    &:hover {
+      color: $cuhk-purple !important;
+      text-decoration: none !important;
+    }
+    
+    &:active {
+      color: $cuhk-purple !important;
+    }
+    
+    &:visited {
+      color: $cuhk-golden !important;
+      font-weight: bold !important;
+    }
+  }
+}
+
+/* 侧边栏作者名字 */
+.author__name {
+  color: $cuhk-golden !important;
+  
+  a {
+    color: $cuhk-golden !important;
+  }
+}
+
+/* 右侧标题颜色 */
+.page__title,
+.page__content h1,
+.page__content h2 {
+  color: $cuhk-purple !important;
+}
+
+/* 右侧链接颜色 */
+.page__content a {
+  color: $cuhk-purple !important;
+  
+  &:hover {
+    color: darken($cuhk-purple, 10%) !important;
+  }
+}
