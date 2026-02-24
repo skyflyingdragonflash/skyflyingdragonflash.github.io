@@ -5,9 +5,11 @@ permalink: /steam/
 author_profile: true
 ---
 
+## Steam
+
 **Friend Code:** `1022335253`
 
-## Playtime
+### Runtime
 
 - [G7] "Elden Ring", [FromSoftware](https://www.fromsoftware.jp/), 325.6 hours. **(All Achievements)**
 - [G6] "Black Myth: Wukong", [Game Science](https://gamesci.cn/), 107.3 hours.
