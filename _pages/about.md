@@ -11,7 +11,10 @@ redirect_from:
   <div class="info-line info-title">Ph.D. Student</div>
   <div class="info-line"><a href="https://sse.cuhk.edu.cn/" class="info-link">School of Science and Engineering</a></div>
   <div class="info-line"><a href="https://www.cuhk.edu.cn/" class="info-link">The Chinese University of Hong Kong, Shenzhen</a></div>
-  <div class="info-line" style="margin-top: 0.8em;">B.Eng. (<a href="https://www2.scut.edu.cn/microelectronics/" class="info-link">School of Microelectronics</a>, <a href="https://www.scut.edu.cn/" class="info-link">SCUT</a>)</div>
+  
+  <div class="info-line info-title" style="margin-top: 0.8em;">B.Eng.</div>
+  <div class="info-line"><a href="https://www2.scut.edu.cn/microelectronics/" class="info-link">School of Microelectronics</a></div>
+  <div class="info-line"><a href="https://www.scut.edu.cn/" class="info-link">South China University of Technology</a></div>
 </div>
 
 ## About
