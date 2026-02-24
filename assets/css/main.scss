@@ -373,11 +373,40 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.7 !important;
 }
 
-/* 链接颜色（保持你之前设置的金色/紫色） */
-.page__content a {
-  color: $golden !important;
+// /* 链接颜色（保持你之前设置的金色/紫色） */
+// .page__content a {
+//   color: $golden !important;
+// }
+
+// .page__content a:hover {
+//   color: $purple !important;
+// }
+
+
+/* ========== 减少顶部间距 ========== */
+
+/* 侧边栏顶部间距 */
+.sidebar {
+  padding-top: 1em !important;
 }
 
-.page__content a:hover {
-  color: $purple !important;
+/* 主内容区顶部间距 */
+#main {
+  padding-top: 1em !important;
+}
+
+.page__content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* 如果还是太远，加上这个 */
+.initial-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
