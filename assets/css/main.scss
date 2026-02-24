@@ -395,10 +395,10 @@ h1, h2, h3, h4, h5, h6,
   padding-top: 0em !important;
 }
 
-.page__content {
-  padding-top: 0em !important;
-  margin-top: 0em !important;
-}
+// .page__content {
+//   padding-top: 0em !important;
+//   margin-top: 0em !important;
+// }
 
 /* 如果还是太远，加上这个 */
 .initial-content {
@@ -406,7 +406,12 @@ h1, h2, h3, h4, h5, h6,
   margin-top: 0 !important;
 }
 
-// body {
-//   padding-top: 0 !important;
-//   margin-top: 0 !important;
-// }
+body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* ========== 隐藏页脚 ========== */
+.page__footer {
+  display: none !important;
+}
