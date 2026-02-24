@@ -284,29 +284,29 @@ strong {
   text-decoration: none !important;
 }
 
-/* 悬停变紫色 */
-.author__nav a:hover,
-.sidebar a:hover,
-.author__urls a:hover {
-  color: $purple !important;
-  text-decoration: none !important;
-}
+// /* 悬停变紫色 */
+// .author__nav a:hover,
+// .sidebar a:hover,
+// .author__urls a:hover {
+//   color: $purple !important;
+//   text-decoration: none !important;
+// }
 
-/* 点击时紫色 */
-.author__nav a:active,
-.sidebar a:active,
-.author__urls a:active {
-  color: $purple !important;
-}
+// /* 点击时紫色 */
+// .author__nav a:active,
+// .sidebar a:active,
+// .author__urls a:active {
+//   color: $purple !important;
+// }
 
-/* 访问后金色加粗 */
-.author__nav a:visited,
-.sidebar a:visited,
-.author__urls a:visited {
-  color: $golden !important;
-  font-weight: bold !important;
-  text-decoration: none !important;
-}
+// /* 访问后金色加粗 */
+// .author__nav a:visited,
+// .sidebar a:visited,
+// .author__urls a:visited {
+//   color: $golden !important;
+//   font-weight: bold !important;
+//   text-decoration: none !important;
+// }
 
 /* 去掉列表前面的点 */
 .author__nav ul,
