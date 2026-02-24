@@ -29,4 +29,3 @@ author_profile: true
 
 [P1] Tinghuan Chen, Jindong Tu, **Yapeng Li**, Yue Zheng, Yaojing Zhang, "一种面向工艺偏差的模拟电路参数优化方法", CN120493847B, 2025.
 
----
