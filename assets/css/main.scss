@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* 主内容区顶部间距 */
 #main {
-  padding-top: 1em !important;
+  padding-top: 0em !important;
 }
 
 .page__content {
@@ -400,13 +400,13 @@ h1, h2, h3, h4, h5, h6,
   margin-top: 0 !important;
 }
 
-/* 如果还是太远，加上这个 */
-.initial-content {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
+// /* 如果还是太远，加上这个 */
+// .initial-content {
+//   padding-top: 0 !important;
+//   margin-top: 0 !important;
+// }
 
-body {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
+// body {
+//   padding-top: 0 !important;
+//   margin-top: 0 !important;
+// }
