@@ -12,6 +12,7 @@ author_profile: true
 [J2] Yupeng Hu\*, **Yapeng Li**, Jindong Tu, Qi Sun, Cheng Zhuo, "Hierarchical Behavioral Learning-based Dynamic Electromigration Analysis for Signal Networks", *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2025. **(CCF-A)**
 
 [J1] Jindong Tu\*, **Yapeng Li\***, Pengjia Li, Peng Xu, Qianru Zhang, Sanping Wan, Yongsheng Sun, Bei Yu, Tinghuan Chen, "SMART: Graph Learning-Boosted Subcircuit Matching for Large-Scale Analog Circuits", *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)*, 2025. **(CCF-A)**
+
 ---
 
 ## Conference Papers
