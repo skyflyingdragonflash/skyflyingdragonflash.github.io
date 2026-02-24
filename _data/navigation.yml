@@ -7,3 +7,6 @@ main:
 
   - title: "Awards"
     url: /awards/
+
+  - title: "Recommend"
+    url: /recommend/
