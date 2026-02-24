@@ -1,21 +1,10 @@
 /* CUHK-SZ Colors */
 $cuhk-purple: #750f6d;
 $cuhk-golden: #dda300;
-$cuhk-purple-dark: #5a0b54;
-$cuhk-golden-dark: #b88a00;
 
 /* Primary color */
 $primary-color: $cuhk-purple !default;
-
-/* Link colors */
 $link-color: $cuhk-golden !default;
 $link-color-hover: $cuhk-purple !default;
-$link-color-visited: $cuhk-golden !default;
-
-/* Masthead (顶部导航栏) */
 $masthead-link-color: $cuhk-golden !default;
 $masthead-link-color-hover: $cuhk-purple !default;
-
-/* Text */
-$text-color: #333 !default;
-$background-color: #fff !default;
