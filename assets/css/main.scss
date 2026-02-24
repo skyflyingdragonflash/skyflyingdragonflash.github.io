@@ -258,19 +258,76 @@ strong {
   }
 }
 
+// /* ========== 链接状态覆盖 ========== */
+// .author__nav a:hover,
+// .sidebar a:hover {
+//   color: $purple !important;
+// }
+
+// .author__nav a:active,
+// .sidebar a:active {
+//   color: $purple !important;
+// }
+
+// .author__nav a:visited,
+// .sidebar a:visited {
+//   color: $golden !important;
+//   font-weight: bold !important;
+// }
+
 /* ========== 链接状态覆盖 ========== */
+
+/* 去掉下划线 */
+.author__nav a,
+.sidebar a,
+.author__urls a {
+  text-decoration: none !important;
+}
+
+/* 悬停变紫色 */
 .author__nav a:hover,
-.sidebar a:hover {
+.sidebar a:hover,
+.author__urls a:hover {
   color: $purple !important;
+  text-decoration: none !important;
 }
 
+/* 点击时紫色 */
 .author__nav a:active,
-.sidebar a:active {
+.sidebar a:active,
+.author__urls a:active {
   color: $purple !important;
 }
 
+/* 访问后金色加粗 */
 .author__nav a:visited,
-.sidebar a:visited {
+.sidebar a:visited,
+.author__urls a:visited {
   color: $golden !important;
   font-weight: bold !important;
+  text-decoration: none !important;
+}
+
+/* 去掉列表前面的点 */
+.author__nav ul,
+.author__urls,
+.sidebar ul {
+  list-style: none !important;
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.author__nav li,
+.author__urls li,
+.sidebar li {
+  list-style: none !important;
+  list-style-type: none !important;
+}
+
+/* 去掉链接前的图标点 */
+.author__urls li::before,
+.sidebar li::before {
+  content: none !important;
+  display: none !important;
 }
