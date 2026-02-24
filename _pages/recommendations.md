@@ -22,6 +22,7 @@ author_profile: true
 [G1] "Grand Theft Auto V", [Rockstar Games](https://www.rockstargames.com/), 42.9 hours.
 
 <small> * hours: runtime</small>
+
 <small>Friend Code: `1022335253`</small>
 
 
