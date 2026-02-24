@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="author-info">
-  <div class="info-line info-title">Ph.D. Student</div>
+  <div class="info-line info-title">Ph.D.</div>
   <div class="info-line"><a href="https://sse.cuhk.edu.cn/" class="info-link">School of Science and Engineering</a></div>
   <div class="info-line"><a href="https://www.cuhk.edu.cn/" class="info-link">The Chinese University of Hong Kong, Shenzhen</a></div>
   
