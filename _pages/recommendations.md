@@ -8,7 +8,7 @@ author_profile: true
 
 ## Music
 
-### [yucat] (http://www.yucat1031.com/)
+### [yucat](http://www.yucat1031.com/)
 
 #### Albums
 
