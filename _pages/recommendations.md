@@ -8,22 +8,22 @@ author_profile: true
 
 ## Music
 
-[yucat](http://www.yucat1031.com/)
+### [yucat](http://www.yucat1031.com/)
 
 
-\[M6\] [PARALLEL WORLD Ⅵ 〜Fairy Story 七つノ御伽話〜](https://music.163.com/album/158666239/) | [Gaia](https://music.163.com/song?id=2016319828)
+[M6] [PARALLEL WORLD Ⅵ 〜Fairy Story 七つノ御伽話〜](https://music.163.com/album/158666239/) | [Gaia](https://music.163.com/song?id=2016319828)
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2016319828&auto=0&height=66"></iframe> -->
 
-\[M5\] [PARALLEL WORLD V 〜Steam Japan〜](https://music.163.com/album/182042771/) | [音戯ノ国](https://music.163.com/song?id=2112548080)
+[M5] [PARALLEL WORLD V 〜Steam Japan〜](https://music.163.com/album/182042771/) | [音戯ノ国](https://music.163.com/song?id=2112548080)
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2112548080&auto=0&height=66"></iframe> -->
 
-\[M4\] [PARALLEL WORLD IV 〜消滅海底都市〜](https://music.163.com/album/74151686/) | [ノアの箱船](https://music.163.com/song?id=1321603116)
+[M4] [PARALLEL WORLD IV 〜消滅海底都市〜](https://music.163.com/album/74151686/) | [ノアの箱船](https://music.163.com/song?id=1321603116)
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1321603116&auto=0&height=66"></iframe> -->
 
-\[M3\] [PARALLEL WORLD III 〜七ノ起源〜](https://music.163.com/album/3090362/) | [全知全能ノ樹](https://y.qq.com/n/ryqq_v2/songDetail/001EvkSS4O999t)
+[M3] [PARALLEL WORLD III 〜七ノ起源〜](https://music.163.com/album/3090362/) | [全知全能ノ樹](https://y.qq.com/n/ryqq_v2/songDetail/001EvkSS4O999t)
 
 <!-- <small>* QQ Music - no embed player available</small> -->
 <audio controls>
@@ -31,11 +31,11 @@ author_profile: true
 </audio>
 
 
-\[M2\] [PARALLEL WORLD II 〜第3ノ道〜](https://music.163.com/album/2662187/) | [D2](https://music.163.com/song?id=27713201)
+[M2] [PARALLEL WORLD II 〜第3ノ道〜](https://music.163.com/album/2662187/) | [D2](https://music.163.com/song?id=27713201)
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=27713201&auto=0&height=66"></iframe> -->
 
-\[M1\] [PARALLEL WORLD 〜终ワリノ始マリ〜](https://music.163.com/album/2393063/) | [暴走マシーン](https://music.163.com/song?id=26121583)
+[M1] [PARALLEL WORLD 〜终ワリノ始マリ〜](https://music.163.com/album/2393063/) | [暴走マシーン](https://music.163.com/song?id=26121583)
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=26121583&auto=0&height=66"></iframe> -->
 
@@ -44,19 +44,19 @@ author_profile: true
 
 ## Steam
 
-\[G7\] "BALL x PIT", [Kenny Sun](https://kennysun.com/), 83.9 hours.
+[G7] "BALL x PIT", [Kenny Sun](https://kennysun.com/), 83.9 hours.
 
-\[G6\] "Black Myth: Wukong", [Game Science](https://gamesci.cn/), 107.3 hours.
+[G6] "Black Myth: Wukong", [Game Science](https://gamesci.cn/), 107.3 hours.
 
-\[G5\] "Elden Ring", [FromSoftware](https://www.fromsoftware.jp/), 325.6 hours. **(All Achievements)**
+[G5] "Elden Ring", [FromSoftware](https://www.fromsoftware.jp/), 325.6 hours. **(All Achievements)**
 
-\[G4\] "Vampire Survivors", [poncle](https://poncle.games/), 13.2 hours.
+[G4] "Vampire Survivors", [poncle](https://poncle.games/), 13.2 hours.
 
-\[G3\] "Sekiro: Shadows Die Twice", [FromSoftware](https://www.fromsoftware.jp/), 82.9 hours.
+[G3] "Sekiro: Shadows Die Twice", [FromSoftware](https://www.fromsoftware.jp/), 82.9 hours.
 
-\[G2\] "Hades", [Supergiant Games](https://www.supergiantgames.com/), 63.5 hours.
+[G2] "Hades", [Supergiant Games](https://www.supergiantgames.com/), 63.5 hours.
 
-\[G1\] "Grand Theft Auto V", [Rockstar Games](https://www.rockstargames.com/), 42.9 hours.
+[G1] "Grand Theft Auto V", [Rockstar Games](https://www.rockstargames.com/), 42.9 hours.
 
 <!-- <small> * hours: runtime</small> -->
 
