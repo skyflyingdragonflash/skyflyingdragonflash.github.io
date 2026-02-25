@@ -8,7 +8,7 @@ author_profile: true
 
 ## Music
 
-### [yucat](http://www.yucat1031.com/)
+[yucat](http://www.yucat1031.com/)
 
 
 \[M6\] [PARALLEL WORLD Ⅵ 〜Fairy Story 七つノ御伽話〜](https://music.163.com/album/158666239/) | [Gaia](https://music.163.com/song?id=2016319828)
