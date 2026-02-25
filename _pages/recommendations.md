@@ -10,7 +10,6 @@ author_profile: true
 
 ### [yucat](http://www.yucat1031.com/)
 
-#### Albums
 
 [M6] [PARALLEL WORLD Ⅵ 〜Fairy Story 七つノ御伽話〜](https://music.163.com/album/158666239/) | [Gaia](https://music.163.com/song?id=2016319828)
 
@@ -24,7 +23,7 @@ author_profile: true
 
 <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1321603116&auto=0&height=66"></iframe> -->
 
-[M3] [PARALLEL WORLD III 〜七ノ起源〜](https://music.163.com/album/3090362/) | [全知全能ノ樹](https://c6.y.qq.com/base/fcgi-bin/u?__=c20mS2dCDtky)
+[M3] [PARALLEL WORLD III 〜七ノ起源〜](https://music.163.com/album/3090362/) | [全知全能ノ樹](https://y.qq.com/n/ryqq_v2/songDetail/001EvkSS4O999t)
 
 <!-- <small>* QQ Music - no embed player available</small> -->
 <audio controls>
