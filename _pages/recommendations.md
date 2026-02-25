@@ -8,35 +8,37 @@ author_profile: true
 
 ## Music
 
-### 加藤有加利 (Yukari Kato)
-
-[Official Website](http://www.yucat1031.com/)
+### [yucat] (http://www.yucat1031.com/)
 
 #### Albums
 
 [M6] [Gaia](https://music.163.com/song?id=2016319828) | [PARALLEL WORLD Ⅵ 〜Fairy Story 七つノ御伽話〜](https://music.163.com/album/158666239/)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2016319828&auto=1&height=66"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2016319828&auto=0&height=66"></iframe> -->
 
 [M5] [音戯ノ国](https://music.163.com/song?id=2112548080) | [PARALLEL WORLD V 〜Steam Japan〜](https://music.163.com/album/182042771/)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2112548080&auto=0&height=66"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2112548080&auto=0&height=66"></iframe> -->
 
 [M4] [ノアの箱船](https://music.163.com/song?id=1321603116) | [PARALLEL WORLD IV 〜消滅海底都市〜](https://music.163.com/album/74151686/)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1321603116&auto=0&height=66"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1321603116&auto=0&height=66"></iframe> -->
 
 [M3] [全知全能ノ樹](https://c6.y.qq.com/base/fcgi-bin/u?__=c20mS2dCDtky) | [PARALLEL WORLD III 〜七ノ起源〜](https://music.163.com/album/3090362/)
 
-<small>* QQ Music - no embed player available</small>
+<!-- <small>* QQ Music - no embed player available</small> -->
+<audio controls>
+  <source src="/assets/music/zenchizennoh_no_ki.mp3" type="audio/mpeg">
+</audio>
+
 
 [M2] [D2](https://music.163.com/song?id=27713201) | [PARALLEL WORLD II 〜第3ノ道〜](https://music.163.com/album/2662187/)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=27713201&auto=0&height=66"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=27713201&auto=0&height=66"></iframe> -->
 
 [M1] [暴走マシーン](https://music.163.com/song?id=26121583) | [PARALLEL WORLD 〜终ワリノ始マリ〜](https://music.163.com/album/2393063/)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=26121583&auto=0&height=66"></iframe>
+<!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=26121583&auto=0&height=66"></iframe> -->
 
 ## Steam
 
