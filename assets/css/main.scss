@@ -48,7 +48,7 @@ body::before {
 #main {
   display: flex;
   min-height: 100vh;
-  padding-top: 6px;
+  padding-top: 60px;
 }
 
 /* ========== Sidebar (LEFT - ALL GOLDEN) ========== */
@@ -59,7 +59,7 @@ body::before {
   border-right: 1px solid $border-color;
   padding: 30px 20px;
   position: fixed;
-  top: 6px;
+  top: 60px;
   left: 0;
   bottom: 0;
   overflow-y: auto;
