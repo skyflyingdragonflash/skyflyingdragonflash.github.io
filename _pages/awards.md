@@ -13,4 +13,4 @@ author_profile: true
 ## Industry
 
 **Best Achievement Award**, [PyAether Ecosystem Event 2025](https://www.empyrean.com.cn/article/item-221.html), 2025  
-*Organized by [Empyrean Technology](https://www.empyrean.com.cn/)*
+*Organized by [Empyrean](https://www.empyrean.com.cn/)*
