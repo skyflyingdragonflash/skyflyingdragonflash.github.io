@@ -16,7 +16,7 @@ author_profile: true
 
 [M6] [Gaia](https://music.163.com/song?id=2016319828) | [PARALLEL WORLD Ⅵ 〜Fairy Story 七つノ御伽話〜](https://music.163.com/album/158666239/)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2016319828&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2016319828&auto=1&height=66"></iframe>
 
 [M5] [音戯ノ国](https://music.163.com/song?id=2112548080) | [PARALLEL WORLD V 〜Steam Japan〜](https://music.163.com/album/182042771/)
 
