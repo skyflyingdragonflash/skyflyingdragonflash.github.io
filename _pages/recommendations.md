@@ -43,23 +43,23 @@ author_profile: true
 
 
 ## Steam
-[G9] "Resident Evil Requiem", [CAPCOM](https://www.capcom.com/), 0 hours. **(Loyal Cloud Player)**
+[G9] "Resident Evil Requiem" (2026), [CAPCOM](https://www.capcom.com/), 0 hours. **(Loyal Cloud Player)**
 
-[G8] "BALL x PIT", [Kenny Sun](https://kennysun.com/), 83.9 hours.
+[G8] "BALL x PIT" (2025), [Kenny Sun](https://kennysun.com/), 83.9 hours.
 
-[G7] "Black Myth: Wukong", [Game Science](https://gamesci.cn/), 107.3 hours.
+[G7] "Black Myth: Wukong" (2024), [Game Science](https://gamesci.cn/), 107.3 hours.
 
-[G6] "Elden Ring", [FromSoftware](https://www.fromsoftware.jp/), 325.6 hours. **(All Achievements)**
+[G6] "Vampire Survivors" (2022), [poncle](https://poncle.games/), 13.2 hours.
 
-[G5] "Vampire Survivors", [poncle](https://poncle.games/), 13.2 hours.
+[G5] "Elden Ring" (2022), [FromSoftware](https://www.fromsoftware.jp/), 325.6 hours. **(All Achievements)**
 
-[G4] "Sekiro: Shadows Die Twice", [FromSoftware](https://www.fromsoftware.jp/), 82.9 hours.
+[G4] "Hades" (2020), [Supergiant Games](https://www.supergiantgames.com/), 63.5 hours.
 
-[G3] "Devil May Cry 5", [CAPCOM](https://www.capcom.com/), 98 hours.
+[G3] "Sekiro: Shadows Die Twice" (2019), [FromSoftware](https://www.fromsoftware.jp/), 82.9 hours.
 
-[G2] "Hades", [Supergiant Games](https://www.supergiantgames.com/), 63.5 hours.
+[G2] "Devil May Cry 5" (2019), [CAPCOM](https://www.capcom.com/), 98 hours.
 
-[G1] "Grand Theft Auto V", [Rockstar Games](https://www.rockstargames.com/), 42.9 hours.
+[G1] "Grand Theft Auto V" (2015), [Rockstar Games](https://www.rockstargames.com/), 42.9 hours.
 
 <!-- <small> * hours: runtime</small> -->
 
