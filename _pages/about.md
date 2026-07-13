@@ -19,7 +19,7 @@ redirect_from:
 
 ## About
 
-I am currently a Ph.D. candidate in the [School of Science and Engineering](https://sse.cuhk.edu.cn/), [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), under a joint program between CUHK-Shenzhen and CUHK, supervised by [Prof. Tinghuan Chen](https://mypage.cuhk.edu.cn/academics/chentinghuan/) (CUHK-Shenzhen) and co-supervised by [Prof. Bei Yu](https://www.cse.cuhk.edu.hk/~byu/index.html) (CUHK) from 2023.
+I am currently a joint Ph.D. candidate between CUHK-Shenzhen and CUHK in the [School of Science and Engineering](https://sse.cuhk.edu.cn/), [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/), supervised by [Prof. Tinghuan Chen](https://mypage.cuhk.edu.cn/academics/chentinghuan/) (CUHK-Shenzhen) and co-supervised by [Prof. Bei Yu](https://www.cse.cuhk.edu.hk/~byu/index.html) (CUHK) from 2023.
 Previously, I received my B.Eng. degree in Microelectronics Science and Engineering from the [School of Microelectronics](https://www2.scut.edu.cn/microelectronics/), [South China University of Technology](https://www.scut.edu.cn/) in 2023.
 
 My research interests include **machine learning** and **algorithm optimization** for **analog EDA**.
