@@ -13,8 +13,6 @@ author_profile: true
 
 ## Journal
 
-[J3] Peng Xu, **Yapeng Li**, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "Ckt2Vec: Efficient Electrical Encoding for Analog Circuit Representations in Vector Space", IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2025.
-
 [J2] Yupeng Hu, **Yapeng Li**, Jindong Tu, Qi Sun, Cheng Zhuo, "Hierarchical Behavioral Learning-based Dynamic Electromigration Analysis for Signal Networks", IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol. 44, no. 11, pp. 4433–4437, Nov. 2025.
 
 [J1] Jindong Tu†, **Yapeng Li†**, Pengjia Li, Peng Xu, Qianru Zhang, Sanping Wan, Yongsheng Sun, Bei Yu, Tinghuan Chen, "SMART: Graph Learning-Boosted Subcircuit Matching for Large-Scale Analog Circuits", IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), vol. 44, no. 10, pp. 4018–4031, 2025.
