@@ -20,13 +20,13 @@ author_profile: true
 
 ## Conference
 
-[C10] Jindong Tu, Junchen Liu, Liu Wang, Yapeng Li, Benyang Qi, Tongkai Wu, Zushuai Xie, Guoqing Li, Tinghuan Chen, "Hierarchical Adaptive Bayesian Optimization for Mixed-Variable Analog Circuit Design", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
+[C10] Jindong Tu, Junchen Liu, Liu Wang, **Yapeng Li**, Benyang Qi, Tongkai Wu, Zushuai Xie, Guoqing Li, Tinghuan Chen, "Hierarchical Adaptive Bayesian Optimization for Mixed-Variable Analog Circuit Design", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
 [C9] **Yapeng Li**†, Beichen Li†, Pengjia Li, Tinghuan Chen, "Ignition: Irregular Board Boundry Aware PCB Migration", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
 [C8] **Yapeng Li**†, Peng Xu†, Shixin Chen, Jindong Tu, Tongkai Wu, Chong Tong, Bei Yu, Tinghuan Chen, "AMigration: Analog placement Migration via Adaptive Constraints Relaxation", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
-[C7] Shixin Chen, Peng Xu, Yapeng Li, Tinghuan Chen, Bei Yu, "PatchWork: A Patch-Driven Framework for Efficient Analog Layout Automation via Legacy Knowledge Reuse", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
+[C7] Shixin Chen, Peng Xu, **Yapeng Li**, Tinghuan Chen, Bei Yu, "PatchWork: A Patch-Driven Framework for Efficient Analog Layout Automation via Legacy Knowledge Reuse", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
 [C6] **Yapeng Li**†, Peng Xu†, Mingzi Wang, Tinghuan Chen, "AlphaPlacer: Analog Placement Enhanced by Monte Carlo Tree Search", ACM/IEEE Design Automation Conference (DAC), Long Beach, Jul. 26–29, 2026.
 
