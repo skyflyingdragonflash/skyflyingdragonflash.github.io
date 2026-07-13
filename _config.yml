@@ -9,7 +9,7 @@ title                    : "Yapeng Li"
 title_separator          : "-"
 subtitle                 : 
 name                     : "Yapeng Li"
-description              : "Ph.D. Candidate at CUHK-Shenzhen"
+description              : "Ph.D. candidate at CUHK-Shenzhen"
 baseurl                  : ""
 url                      : "https://skyflyingdragonflash.github.io"
 repository               : "skyflyingdragonflash/skyflyingdragonflash.github.io"
@@ -18,7 +18,7 @@ repository               : "skyflyingdragonflash/skyflyingdragonflash.github.io"
 author:
   name             : "Yapeng Li"
   avatar           : "/images/profile.png"
-  bio              : "Ph.D. Candidate"
+  bio              : "Ph.D. candidate"
   location         : 
   employer         :
   pubmed           : 
