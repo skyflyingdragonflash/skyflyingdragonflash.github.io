@@ -7,9 +7,9 @@ author_profile: true
 
 ## Accepted
 
-Yapeng Li, Peng Xu, Mingzhen Li, Tsung-Yi Ho, Bei Yu, Tinghuan Chen, "Analog Circuit Representation Learning Informed by Kirchhoff's Current Law", accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
+[J5] **Yapeng Li**, Peng Xu, Mingzhen Li, Tsung-Yi Ho, Bei Yu, Tinghuan Chen, "Analog Circuit Representation Learning Informed by Kirchhoff's Current Law", accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
 
-Peng Xu, Yapeng Li, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "Ckt2Vec: Efficient Electrical Encoding for Analog Circuit Representations in Vector Space", accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
+[J4] Peng Xu, **Yapeng Li**, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "Ckt2Vec: Efficient Electrical Encoding for Analog Circuit Representations in Vector Space", accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD).
 
 ## Journal
 
@@ -24,9 +24,9 @@ Peng Xu, Yapeng Li, Tinghuan Chen, Tsung-Yi Ho, Bei Yu, "Ckt2Vec: Efficient Elec
 
 [C10] Jindong Tu, Junchen Liu, Liu Wang, Yapeng Li, Benyang Qi, Tongkai Wu, Zushuai Xie, Guoqing Li, Tinghuan Chen, "Hierarchical Adaptive Bayesian Optimization for Mixed-Variable Analog Circuit Design", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
-[C9] Yapeng Li, Beichen Li, Pengjia Li, Tinghuan Chen, "Ignition: Irregular Board Boundry Aware PCB Migration", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
+[C9] **Yapeng Li**†, Beichen Li†, Pengjia Li, Tinghuan Chen, "Ignition: Irregular Board Boundry Aware PCB Migration", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
-[C8] Yapeng Li, Peng Xu, Shixin Chen, Jindong Tu, Tongkai Wu, Chong Tong, Bei Yu, Tinghuan Chen, "AMigration: Analog placement Migration via Adaptive Constraints Relaxation", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
+[C8] **Yapeng Li**†, Peng Xu†, Shixin Chen, Jindong Tu, Tongkai Wu, Chong Tong, Bei Yu, Tinghuan Chen, "AMigration: Analog placement Migration via Adaptive Constraints Relaxation", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
 [C7] Shixin Chen, Peng Xu, Yapeng Li, Tinghuan Chen, Bei Yu, "PatchWork: A Patch-Driven Framework for Efficient Analog Layout Automation via Legacy Knowledge Reuse", IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Jose, Nov. 8-12, 2026.
 
